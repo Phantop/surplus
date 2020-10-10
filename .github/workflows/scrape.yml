@@ -4,7 +4,7 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    - cron:  '6,26,46 * * * *'
+    - cron:  '0 0 1,15 * *'
 
 jobs:
   scheduled:
@@ -15,7 +15,8 @@ jobs:
     - name: Fetch latest data
       run: |-
         IFS=$'\n'
-        for i in `curl https://www.greatneck.k12.ny.us/surplus | grep -Eo 'href="[^\"]+"' | grep xlsx | cut -d= -f2 | cut -d\" -f2`; do
+        curl -O https://www.greatneck.k12.ny.us/surplus
+        for i in `grep -Eo 'href="[^\"]+"' surplus | grep xlsx | cut -d= -f2 | cut -d\" -f2`; do
             curl -O https://www.greatneck.k12.ny.us$i
         done
     - name: Commit and push if it changed
