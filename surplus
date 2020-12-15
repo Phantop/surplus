@@ -6027,7 +6027,7 @@ $(document).ready(function() {
 <li id="navs-58"><a href="https://www.pnwboces.org/olas/#!/default" target="_blank"><span>OLAS District Login</span></a></li>
 <li id="navs-59"><a href="/Page/8682"><span>PTCwizard Teacher</span></a></li>
 <li id="navs-60"><a href="https://www.myschoolbuilding.com/sso/default.aspx?acctnum=239250518&productid=ITD" target="_blank"><span>School Dude</span></a></li>
-<li id="navs-61"><a href="https://mail2.greatneck.k12.ny.us/"><span>WebMail</span></a></li>
+<li id="navs-61"><a href="https://mail.greatneck.k12.ny.us/"><span>WebMail</span></a></li>
 <li id="navs-62"><a href="https://wincapweb.com/" target="_blank"><span>WinCapWEB</span></a></li>
 <li id="navs-96"><a href="http://www.gnteachers.net/" target="_blank"><span>GNTA</span></a></li>
 <li id="navs-97"><a href="http://gnsages.weebly.com/" target="_blank"><span>SAGES</span></a></li>
@@ -6836,7 +6836,7 @@ function LoadTaggedData(container, MIID, PMI, tag) {
 <!-- END - STANDARD FOOTER -->
 <script type="text/javascript">
    $(document).ready(function(){
-      var beaconURL='https://analytics.schoolwires.com/analytics.asmx/Insert?AccountNumber=tnrU385zbkxtorKXr681Bw%3d%3d&SessionID=52964ab1-3281-4d73-92b7-4026b1709bf3&SiteID=4&ChannelID=3299&SectionID=76&PageID=14101&HitDate=11%2f30%2f2020+7%3a47%3a58+PM&Browser=Unknown+0.0&OS=Unknown&IPAddress=10.61.1.223';
+      var beaconURL='https://analytics.schoolwires.com/analytics.asmx/Insert?AccountNumber=tnrU385zbkxtorKXr681Bw%3d%3d&SessionID=a1022a0a-d736-4c87-9218-5ed7fa1173db&SiteID=4&ChannelID=3299&SectionID=76&PageID=14101&HitDate=12%2f14%2f2020+7%3a51%3a16+PM&Browser=Unknown+0.0&OS=Unknown&IPAddress=10.61.1.223';
       try {
          $.getJSON(beaconURL + '&jsonp=?', function(myData) {});
       } catch(err) { 
@@ -7718,7 +7718,7 @@ function LoadTaggedData(container, MIID, PMI, tag) {
 <!-- End swuc.CheckScript -->
 
 
-    <!-- Server Load Time (04): 0.1562482 Seconds -->
+    <!-- Server Load Time (04): 0.1874875 Seconds -->
 
     
 
